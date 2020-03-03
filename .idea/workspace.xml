@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SequenzV2.jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="43f1ff80-505d-452d-8a98-71fd34e03753" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SequenzV2/Sequenz2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sequenz2/Arrow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sequenz2/Arrow.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +28,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553087336476" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager" selected="Application.Main (1)">
@@ -81,13 +87,33 @@
       <option name="presentableId" value="Default" />
       <updated>1553086976245</updated>
     </task>
+    <task id="LOCAL-00001" summary="Changed arrow type for constructor calls to dashed line according to UML specification">
+      <created>1583225670731</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583225670731</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changed arrow type for constructor calls to dashed line according to UML specification" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed arrow type for constructor calls to dashed line according to UML specification" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583224847983">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1583224847983" />
+    <state x="499" y="203" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1583225700101">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="203" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1583225700101" />
+    <state x="436" y="12" key="CommitChangelistDialog2" timestamp="1583225669185">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="436" y="12" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583225669185" />
     <state width="1493" height="66" key="GridCell.Tab.0.bottom" timestamp="1583225480932">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -104,9 +130,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="66" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583225480932" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1583224876419">
+    <state x="249" y="0" key="SettingsEditor" timestamp="1583225770551">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1583224876419" />
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1583225770551" />
   </component>
 </project>
