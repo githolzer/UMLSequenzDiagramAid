@@ -163,7 +163,10 @@ public class Arrow {
             //endregion 
         }else{
             //region not self
+            if (type == Con) g.setLineDashes(5,5);
+            else g.setLineDashes();
             g.strokeLine(sxg, yVolatile, exg /*+ shift / 2*/, yVolatile);
+
             //paintText(can, sxg+(actor!=0?70:0), exg, true);
             double x0 = sxg;
             if (actor==1) x0+=45;
@@ -190,7 +193,7 @@ public class Arrow {
         }
 
         // Zeichne Pfeilspitzen
-        if (RET!=type && a!=null)
+        if (type != Con && RET!=type && a!=null)
             g.fillPolygon(new double[]{
                     exg + shift, 
                     exg + shift, exg}, 
